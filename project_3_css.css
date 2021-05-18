@@ -1,0 +1,43 @@
+.mainContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: red;
+	width: 30em;
+	height: 30em;
+	margin-top: 7em;
+	margin-bottom: 7em;
+	border-color: black;
+	border-style: solid;
+	border-radius: 1em;
+}
+.butoane {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.buttonStyle {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.2em;
+	border-radius: 0.4em;
+	justify-content: center;
+	background-color: Gold;
+	text-decoration: black;
+	padding: 0.2em;
+}
+.buttonStyle:hover {
+	background-color: white;
+}
+.centrare {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+	
+

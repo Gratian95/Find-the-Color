@@ -1,0 +1,40 @@
+.mainContainer2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: red;
+	width: 30em;
+	height: 30em;
+	margin-top: 7em;
+	margin-bottom: 7em;
+	border-color: black;
+	border-style: solid;
+	border-radius: 1em;
+}
+.centrare2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.backButton {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.2em;
+	border-radius: 0.4em;
+	justify-content: center;
+	background-color: Gold;
+	text-decoration: black;
+	padding: 0.2em;
+}
+.backButtonDiv {
+	display: flex;
+	flex-direction: column;
+}
+.backButton:hover {
+	background-color: white;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
